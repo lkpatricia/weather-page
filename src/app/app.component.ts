@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'weather-page';
+  title = 'Here is your 5 day forecast:';
+  client = 'Saffron Junction';
+  slogan = 'flavor fusion bistro';
 }
