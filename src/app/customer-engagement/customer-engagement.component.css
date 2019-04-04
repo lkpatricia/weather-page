@@ -4,3 +4,7 @@ ul,ul * {
   border: none;
   list-style-type: none;
 }
+
+.container {
+  text-align: center;
+}

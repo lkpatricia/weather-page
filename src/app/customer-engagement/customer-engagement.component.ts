@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { WeathercallService } from './services/weathercall.service';
 
 @Component({
   selector: 'app-customer-engagement',
@@ -6,11 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./customer-engagement.component.css']
 })
 
-export class CustomerEngagementComponent {
-  city = 'Vancouver';
-  weather = 'Sunny';
-  temp = 23.0;
+export class CustomerEngagementComponent implements OnInit {
+  weatherdata: any = [];
 
-  constructor() { }
+  constructor(private weathercallService: WeathercallService) { }
+
+  ngOnInit() {
+    this.weathercallService.getWeatherdata().subscribe(data => {
+      this.weatherdata = data;
+    });
+  }
 }
-

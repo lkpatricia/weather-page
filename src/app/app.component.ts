@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Here is your 5 day forecast:';
+  title = '5-day Customer Engagement Plan';
   client = 'Saffron Junction';
   slogan = 'flavor fusion bistro';
 }
