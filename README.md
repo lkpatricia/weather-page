@@ -1,3 +1,6 @@
+## 24-hour Coding Challenge/Tutorial
+## (get as far as you can in 24 hrs)
+
 Welcome!  You are a brand new developer starting out at Acme Software Incorporated!  You have just completed your first week, including some excellent onboarding sessions to learn about the history of the company, the current technology architecture, and the future roadmap for the platform.  You have had some great team lunches and tasty welcome donuts.
 You have a basic understanding of Acme’s business, which is to work with smaller, independent restaurants to  engage with their customers and potential customers to come in for specials, happy hours and events. Acme does this through various channels including automated phone calls, texts, email and others.  Acme prides itself on the ability to determine both the best message to use to engage food lovers and when to most effectively engage them.
 Now you are ready to get down to business!  In talking with your Scrum team and your technical lead, you have determined that the first task you are going to take on is to implement a new feature that determines when to best contact individuals based on the weather.  Acme’s product team has determined the following:
@@ -9,8 +12,7 @@ You will need to build a function that uses the API provided by openweathermap.o
 This will be your first work in your new role, so please put your best foot forward and build this to your professional best.  You may use any online resources or open source libraries to implement the solution, but all the code developed must be your own. 
 
 
-# WeatherPage -  24 Coding Challenge/Tutorial
-
+# WeatherPage
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
 ## Development server
